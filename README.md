@@ -2,7 +2,7 @@
 
 Unity runtime module for probing AWS GameLift UDP ping beacons from inside a game.
 
-It mirrors the Go command line tool in `~/dev/poc/gamelift-udp-ping-beacons`:
+It mirrors the Go command line tool at https://github.com/jp/gamelift-udp-ping-beacons:
 
 - same AWS GameLift UDP ping beacon endpoint list
 - same `GLPING01` UDP probe payload shape
@@ -12,17 +12,21 @@ It mirrors the Go command line tool in `~/dev/poc/gamelift-udp-ping-beacons`:
 
 ## Install
 
-Add this folder as a local Unity Package Manager package:
+Add the package through Unity Package Manager using the Git URL:
 
 ```json
 {
   "dependencies": {
-    "com.aurory.gamelift-udp-ping-beacons": "file:../gamelift-udp-ping-beacons-unity"
+    "com.aurory.gamelift-udp-ping-beacons": "https://github.com/jp/gamelift-udp-ping-beacons-unity.git"
   }
 }
 ```
 
-Or use Unity's Package Manager window with **Add package from disk...** and select `package.json`.
+Or use Unity's Package Manager window with **Add package from git URL...** and enter:
+
+```text
+https://github.com/jp/gamelift-udp-ping-beacons-unity.git
+```
 
 ## Runtime Usage
 
