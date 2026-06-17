@@ -1,0 +1,14 @@
+{
+  "name": "Aurory.GameLiftUdpPingBeacons",
+  "rootNamespace": "Aurory.GameLiftUdpPingBeacons",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

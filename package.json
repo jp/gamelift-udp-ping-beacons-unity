@@ -1,0 +1,17 @@
+{
+  "name": "com.aurory.gamelift-udp-ping-beacons",
+  "version": "0.1.0",
+  "displayName": "GameLift UDP Ping Beacons",
+  "description": "Unity runtime module for probing AWS GameLift UDP ping beacons and reporting latency, jitter, and packet loss.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Aurory"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Display",
+      "description": "MonoBehaviour that runs the beacon test and displays progress plus ranked results in a Unity UI Text.",
+      "path": "Samples~/BasicDisplay"
+    }
+  ]
+}
